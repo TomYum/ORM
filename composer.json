@@ -1,0 +1,15 @@
+{
+    "name": "tomyum/orm",
+    "authors": [
+        {
+            "name": "TomYum",
+            "email": "hart2005@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "TY/Orm": "Lib/"
+        }
+    }
+}
