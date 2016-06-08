@@ -11,7 +11,17 @@ class Where implements StatementsInterface
         $this->statement = $statement;
     }
     
-    public function get(){
+    public function andWhere($statement)
+    {
+        
+    }
+    
+    public function orWhere($statement)
+    {
+        
+    }
+    
+    final public function get(){
         return $this->statement->get();
     }
 }

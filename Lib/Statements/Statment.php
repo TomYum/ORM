@@ -8,14 +8,22 @@ class Statement
     
     private $where;
     
+    private $dictionary;
+    
+    
+    
     public function __construct($model)
     {
+        $this->model = $model;
         
     }
     
     public function get()
     {
         $fields = $model::getFields();
+        $dictionary->select($fields);
+        
+        
     }
     
     public function where(){

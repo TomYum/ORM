@@ -13,6 +13,4 @@ interface StatementsInterface
      * @return ..\Model
      */
     public function get();
-    
-    public function compile($dictionary);
 }
